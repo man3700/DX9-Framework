@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Optional">
+      <UniqueIdentifier>{822c5ae3-abb9-4089-b46a-c9d81c3827e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Optional\DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{665d9e21-13d6-464f-be4f-bde5e4846885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Optional\SDK">
+      <UniqueIdentifier>{13bbad1b-c384-486d-9f7d-406ed76ca19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Optional\MATH">
+      <UniqueIdentifier>{8b8efaeb-12a4-447c-97dd-0463cebfdb12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Main">
+      <UniqueIdentifier>{6e226efe-17c4-44ac-a951-b4da091ef7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers">
+      <UniqueIdentifier>{2431b080-ea2e-486b-952a-33f3d6dc677e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects">
+      <UniqueIdentifier>{ba3b4812-ba4b-4905-9cd3-8484caee249b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes">
+      <UniqueIdentifier>{06ebbb2c-372d-4c37-a43a-b0db036b27d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Camera">
+      <UniqueIdentifier>{a8cee429-76e9-49a5-8dbb-27052711e859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Input">
+      <UniqueIdentifier>{5f653287-d69e-4039-b38c-988f71f5dff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Object">
+      <UniqueIdentifier>{892ff035-937f-4b34-afaa-eea0183ba51c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Render">
+      <UniqueIdentifier>{ab53251c-5706-4156-ba6f-0893af7bd4da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Scene">
+      <UniqueIdentifier>{2189a453-9955-4a57-a254-02f6b5c0deb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Sound">
+      <UniqueIdentifier>{cdd064b8-10ec-42d2-874f-ac3dda65c21d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Texture">
+      <UniqueIdentifier>{dce37fa2-dbe7-4f07-9022-c5b29eccfde4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>Optional\DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>Optional\DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </CLInclude>
+    <ResourceCompile Include="Framework.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+    <ClInclude Include="DXUT\Optional\SDKsound.h">
+      <Filter>Optional\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKwavefile.h">
+      <Filter>Optional\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Optional\MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Game\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Game\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Game\Managers\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Game\Managers\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Game\Managers\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Game\Managers\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Game\Managers\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Game\Managers\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Game\Managers\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Game\Managers\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Game\Managers\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Game\Managers\Texture</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKsound.cpp">
+      <Filter>Optional\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKwavefile.cpp">
+      <Filter>Optional\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Optional\MATH</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Game\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Game\Managers\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Game\Managers\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Game\Managers\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Game\Managers\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Game\Managers\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Game\Managers\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Game\Managers\Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
