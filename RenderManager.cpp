@@ -4,23 +4,11 @@
 RenderManager::RenderManager()
 {
 	D3DXCreateSprite(Device, &mSprite);
-
-	for (int i = 0; i < 32; i++)
-	{
-		D3DXCreateFont(Device, i + 1, 0, 0, 1, false, DEFAULT_CHARSET, 0, 0, 0, L"System", &mEng[i]);
-		D3DXCreateFont(Device, i + 1, 0, 0, 1, false, DEFAULT_CHARSET, 0, 0, 0, L"ÈÞ¸ÕµÕ±ÙÇìµå¶óÀÎ", &mKor[i]);
-	}
 }
 
 RenderManager::~RenderManager()
 {
 	mSprite->Release();
-
-	for (int i = 0; i < 32; i++)
-	{
-		mKor[i]->Release();
-		mEng[i]->Release();
-	}
 }
 
 void RenderManager::OnLostDevice()

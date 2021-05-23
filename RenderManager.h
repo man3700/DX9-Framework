@@ -13,7 +13,6 @@ public:
 
 private:
 	Matrix mMatrix, mScaleMat, mRotMat, mTransMat;
-	Font mEng[32], mKor[32];
 	Sprite mSprite;
 
 public:

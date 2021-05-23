@@ -32,8 +32,10 @@ void TextureManager::Create(string _key, string _path, int _layer)
 		char path[256];
 		wsprintfA(path, _path.c_str(), i);
 
-		if (D3DXCreateTextureFromFileExA(Device, path, D3DX_DEFAULT_NONPOW2, D3DX_DEFAULT_NONPOW2, 0, 0,
-			D3DFMT_UNKNOWN, D3DPOOL_MANAGED, D3DX_FILTER_POINT, D3DX_FILTER_POINT, 0, &info, 0, &image) == S_OK)
+		if (D3DXCreateTextureFromFileExA(Device, path, 
+			D3DX_DEFAULT_NONPOW2, D3DX_DEFAULT_NONPOW2, 0, 0,
+			D3DFMT_UNKNOWN, D3DPOOL_MANAGED, D3DX_FILTER_POINT, 
+			D3DX_FILTER_POINT, 0, &info, 0, &image) == S_OK)
 			textures.push_back(new Texture(image, info));
 	}
 
