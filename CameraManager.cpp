@@ -41,3 +41,10 @@ Matrix CameraManager::GetMatrix()
 	D3DXMatrixInverse(&matrix, nullptr, &mView);
 	return matrix;
 }
+
+void CameraManager::Shake(float pForce, float pTime)
+{
+	mForce = pForce;
+	mShakeLimit = pTime;
+	mShakeDuration = 0;
+}

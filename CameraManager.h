@@ -30,4 +30,6 @@ public:
 
 	Matrix GetMatrix();
 
+	void Shake(float pForce, float pTime);
+
 };
