@@ -34,10 +34,6 @@ public:
 			cast = dynamic_cast<T*>(iter);
 			if (cast) return cast;
 		}
-
-		cout << "Object couldn't search." << endl;
-
-		return list;
 	}
 
 	template<typename T> list<T*> SearchAll()
@@ -59,9 +55,6 @@ public:
 			cast = dynamic_cast<T*>(iter);
 			if (cast) list.push_back(cast);
 		}
-
-		if (list.empty())
-			cout << "Object couldn't search." << endl;
 
 		return list;
 	}
